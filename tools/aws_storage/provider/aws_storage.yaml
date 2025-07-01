@@ -1,0 +1,19 @@
+extra:
+  python:
+    source: provider/aws_storage.py
+identity:
+  author: langgenius
+  description:
+    en_US: AWS Object Storage.
+    pt_BR: AWS Object Storage.
+    zh_Hans: AWS 对象存储。
+  icon: icon.png
+  label:
+    en_US: AWS Object Storage
+    pt_BR: AWS Object Storage
+    zh_Hans: AWS 对象存储
+  name: aws_storage
+  tags:
+  - utilities
+tools:
+- tools/storage.yaml

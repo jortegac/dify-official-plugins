@@ -1,0 +1,25 @@
+description:
+  human:
+    en_US: A Datasource for AWS Object Storage.
+    zh_Hans: 一个用于 AWS 对象存储的数据源。
+  llm: A Datasource for AWS Object Storage.
+  python:
+    source: tools/storage.py
+identity:
+  author: langgenius
+  icon: icon.png
+  label:
+    en_US: AWS Object Storage
+    pt_BR: AWS Object Storage
+    zh_Hans: AWS 对象存储
+  name: aws_storage
+parameters:
+output_schema:
+  type: object
+  properties:
+    result:
+      type: object
+      description: The result of the AWS Object Storage.
+      properties:
+        file:
+          type: file
