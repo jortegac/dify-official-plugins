@@ -43,8 +43,8 @@ class QAChunkTool(Tool):
             return
         qa_chunks = []
         for index, row in df.iterrows():
-            question = row[question_column]
-            answer = row[answer_column]
+            question = str(row[question_column])
+            answer = str(row[answer_column])
             qa_chunks.append({"question": question, "answer": answer})
         
         result = {
